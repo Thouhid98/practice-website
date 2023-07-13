@@ -90,6 +90,7 @@
 }
 .list{
     margin-top: 10px;
+    
 }
 .contarary{
     font-family: Work Sans;
@@ -105,7 +106,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin:20px 300px 20px 300px;
+    margin:20px 300px 20px 350px;
     padding: 20px;
 
 }
@@ -145,4 +146,118 @@
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
+}
+/* always section  */
+.always{
+    margin:80px 200px 80px 180px;
+    width: 1000px;
+    height: 300px;
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), 
+     url('../images/watch.png');
+    border-radius: 8px;
+}
+.always-head{
+    margin-left: 100px;
+    padding-top: 60px;
+    padding-left: 20px;
+    color: white;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}  
+.call-btn{
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* footer section  */
+.footer-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 1350px;
+    height: 350px;
+    padding-left: 130px;
+    
+}
+.future{
+    width: 400px;
+    
+}
+.future-head{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.future-des{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.email{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.subscribe{
+    width: 400px;
+    margin-top: -60px;
+}
+.sub-head{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.input{
+    width:260px;
+    height: 45px;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    border-radius: 8px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+.subscribe-btn{
+    width: 150px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    background: white;
+    margin-top: 10px;
 }
